@@ -26,7 +26,7 @@
 | Class | Topics Covered | Key Libraries/Tools |
 |-------|---------------|---------------------|
 | **Class 01** | Python Fundamentals & Setup | `Python 3.8+`, `Jupyter` |
-| **Class 02-05** | Datatype & Conditional statement | `numbers`, `string`, `list`, `dictionary`, `sets`, `Boolean`|
+| **Class 02-05** | Datatype & Conditional statement | `math`|
 
 ---
 
@@ -47,3 +47,4 @@ git clone https://github.com/Shreyit/Sem-IV-Python.git
 # 2. Open Jupyter Notebook
 # 3. Navigate to cloned repository
 # 4. Open any .ipynb file
+
