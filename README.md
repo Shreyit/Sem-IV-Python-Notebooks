@@ -1,4 +1,4 @@
-# 🐍 Semester IV Python Course
+# 🐍 Semester IV Python Notebooks
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
@@ -16,7 +16,7 @@ Comprehensive Python learning journey covering fundamentals, control flow, numer
 |--------|-------|
 | **Classes** | 12 (Feb 25 - Apr 18, 2026) |
 | **Assignments** | 5 (Classes 3, 4, 5, 9, 10) |
-| **Datasets** | 3 files (CSV, XLSX) |
+| **Datasets** | 5 files (CSV, XLSX) |
 | **Core Libraries** | NumPy, Pandas, Math, Random |
 
 ---
