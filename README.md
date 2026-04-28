@@ -6,7 +6,7 @@
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-Comprehensive Python learning journey covering fundamentals, control flow, numerical computing, and data science. **12 classes** with hands-on assignments and real-world datasets.
+Comprehensive Python learning journey covering fundamentals, control flow, numerical computing, and data science. **15 classes** with hands-on assignments and real-world datasets.
 
 ---
 
@@ -14,10 +14,10 @@ Comprehensive Python learning journey covering fundamentals, control flow, numer
 
 | Metric | Count |
 |--------|-------|
-| **Classes** | 12 (Feb 25 - Apr 18, 2026) |
-| **Assignments** | 5 (Classes 3, 4, 5, 9, 10) |
-| **Datasets** | 5 files (CSV, XLSX) |
-| **Core Libraries** | NumPy, Pandas, Math, Random |
+| **Classes** | 15 (Feb 25 - Apr 26, 2026) |
+| **Assignments** | 6 (Classes 3, 4, 5, 9, 10, 15) |
+| **Datasets** | 11 files (CSV, XLSX, TXT, PKL, Parquet) |
+| **Core Libraries** | NumPy, Pandas, Matplotlib/Seaborn, Requests |
 
 ---
 
@@ -74,17 +74,37 @@ Comprehensive Python learning journey covering fundamentals, control flow, numer
 
 ---
 
+### **Phase 5: Advanced Data Science & Visualization** (Classes 13-15)
+*Building stronger EDA and pandas skills*
+
+| Class | Date | Topics | Libraries | Focus |
+|-------|------|--------|-----------|-------|
+| **Class 13** | 19-04-26 | Data cleaning review, outlier detection, typos, duplicate handling | `pandas`, `numpy`, `seaborn` | Robust data quality checks |
+| **Class 14** | 25-04-26 | Advanced filtering, string operations, sorting, groupby aggregation | `pandas` | Structured dataset exploration |
+| **Class 15** | 26-04-26 | Data visualization, correlation analysis, concat, web scraping | `pandas`, `seaborn`, `requests`, `bs4` | EDA, data combination, and CSV/text integration |
+
+**Key Concepts**: Visual analytics, groupby aggregation, concatenation, scraping supplemental data
+
+---
+
 ## 📊 Datasets
 
 Located in `/data/`:
 
 | File | Format | Purpose | Used In |
 |------|--------|---------|---------|
-| **retail_2016_2017.csv** | CSV | Retail sales analysis | Classes 11-12 |
+| **retail_2016_2017.csv** | CSV | Retail sales analysis | Classes 11-15 |
 | **oil.csv** | CSV | Oil price/supply data | Class 12 |
-| **Student Grades.xlsx** | Excel | Student performance data | Class 12 |
+| **Student Grades.xlsx** | Excel | Student performance data | Class 13 |
 | **Run Times.xlsx** | Excel | Exercise performance data | Class 12 |
-| **Groceries.xlsx** | Excel | Transaction data | - |
+| **Groceries.xlsx** | Excel | Transaction data | Class 14 |
+| **groceries_with_new_columns.pkl** | Pickle | Enriched grocery dataset | Classes 14-15 |
+| **student_data.csv** | CSV | Student survey grades | Classes 14-15 |
+| **happiness_survey_data.csv** | CSV | Global happiness scores | Classes 15, Assignment 15 |
+| **happiness_data_*.txt** | TXT | Country happiness data slices | Class 15 |
+| **final_student_dataset.parquet** | Parquet | Processed student data archive | Course reference |
+
+Additional dataset formats support exercises in file I/O, concatenation, and text parsing.
 
 ---
 
@@ -93,14 +113,13 @@ Located in `/data/`:
 ```
 Sem IV Python/
 ├── Class ipynb Notebook/        # Main course content
-│   ├── class_02 to class_12     # 11 classroom sessions
+│   ├── class_02 to class_15     # 15 classroom sessions
 │   └── Organized by date
 ├── Class Assignment/            # Assessments & exercises
-│   ├── assignment_class_03-10   # Problem sets
+│   ├── assignment_class_03-15   # Problem sets
 │   └── Class_XX_Assignment.docx # Assignment details
 ├── data/                        # Datasets for practice
-│   ├── *.csv                    # CSV data files
-│   └── *.xlsx                   # Excel spreadsheets
+│   ├── *.csv, *.txt, *.xlsx, *.pkl, *.parquet
 └── README.md                    # This file
 ```
 
@@ -141,6 +160,7 @@ jupyter notebook
 2. ✅ Practice **Phase 2** (Classes 6-7) - Iteration & Efficiency
 3. ✅ Learn **Phase 3** (Classes 8-10) - Numerical Computing
 4. ✅ Master **Phase 4** (Classes 11-12) - Data Science
+5. ✅ Explore **Phase 5** (Classes 13-15) - Advanced Data Science & Visualization
 
 Each phase builds on previous concepts. Assignments reinforce learning.
 
